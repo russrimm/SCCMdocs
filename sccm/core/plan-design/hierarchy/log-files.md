@@ -234,7 +234,7 @@ Under normal operating conditions, use the ERROR log level. This log level creat
 #### <a name="BKMK_ManageLinuxLogs"></a> Manage log files for the Linux and UNIX client
 
 The client for Linux and UNIX doesn't limit the maximum size of the client log files. It also doesn't automatically copy the contents of its .log files to another file, such as to a .lo_ file. If you want to control the maximum size of log files, implement a process to manage the log files independent from the Configuration Manager client for Linux and UNIX.  
-
+-
 For example, you can use the standard Linux and UNIX command **logrotate** to manage the size and rotation of the client log files. The Configuration Manager client for Linux and UNIX has an interface that enables **logrotate** to signal the client when the log rotation completes, so the client can resume logging to the log file.  
 
 For information about **logrotate**, see the documentation for the Linux and UNIX distributions that you use.  
