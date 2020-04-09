@@ -212,7 +212,7 @@ This setting is enabled by default. The management point provides clients a list
 
 There are two common scenarios in which you should consider disabling this option:  
 
-- If you have a boundary group that includes boundaries from geographically dispersed locations such as a VPN. Two clients may be in the same boundary group because they're connected through VPN, but in vastly different locations that are inappropriate for peer sharing of content.  
+- If you have a boundary group that includes boundaries from geographically dispersed locations such as a VPN, two clients may be in the same boundary group because they're connected through VPN, but in vastly different locations that are inappropriate for peer sharing of content.  
 
 - If you use a single, large boundary group for site assignment that doesn't reference any distribution points.  
 
